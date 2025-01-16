@@ -1,2 +1,41 @@
-# ga-ensemble-optimization
-🧬 Genetic Algorithm-Based Approach for Optimizing Ensemble Weights
+# 📂 유전 알고리즘 기반 앙상블 가중치 최적화
+
+## 📝 프로젝트 개요
+- 이 프로젝트는 **유전 알고리즘**(Genetic Algorithm, GA)을 활용하여 **5개의 머신러닝 및 딥러닝 모델**의 **앙상블 가중치** 최적화
+- 데이터 전처리부터 모델 학습, 결과 저장까지의 전체 파이프라인을 구현하여 **RMSE**(평균제곱오차)를 최소화하는 것이 목표
+
+## 📁 프로젝트 구조
+```
+📦 Project Root
+├── ga.ipynb                   # GA 기반 5개 모델 앙상블 가중치 최적화
+├── ga_data_prepro.ipynb       # 데이터 전처리 및 모델 학습, 결과 저장
+├── ga_data_prepro_model2.ipynb # 모델2만의 데이터를 생성하는 코드 
+└── README.md                  # 프로젝트 설명서
+```
+
+## 🔍 파일 설명
+1. **`ga.ipynb`**  
+   - **유전 알고리즘**을 사용해 **5개 머신러닝/딥러닝 모델**의 **앙상블 가중치**를 최적화
+   - 최적화 목표는 **RMSE**를 최소화하는 것
+   - 다양한 가중치 조합을 탐색해 최적의 앙상블 성능을 도출
+
+2. **`ga_data_prepro.ipynb`** and **`ga_data_prepro_model2.ipynb`**
+   - **데이터 전처리** 수행
+   - **유전 알고리즘**에 사용할 **모델**과 **테스트용 모델** 학습
+   - **학습 결과를 저장**하는 작업 수행
+
+## 🛠️ 사용 기술
+
+- **Python**  
+- **Jupyter Notebook**  
+- **Pandas, NumPy** (데이터 처리)  
+- **Scikit-learn, TensorFlow** (머신러닝 및 딥러닝 모델)  
+- **Genetic Algorithm (GA)** (앙상블 가중치 최적화)
+
+## 📈 기대 효과
+
+- **유전 알고리즘**을 통한 **앙상블 가중치 최적화**  
+- **데이터 전처리부터 모델 학습 및 결과 저장**까지의 **통합 파이프라인** 구축  
+- **RMSE 최소화**를 통한 모델의 **정확도 및 성능 개선**
+
+
